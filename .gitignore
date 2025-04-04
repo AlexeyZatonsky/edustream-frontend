@@ -1,0 +1,45 @@
+# === Logs ===
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# === Dependency directories ===
+node_modules/
+
+# === Build output ===
+dist/
+dist-ssr/
+*.local
+
+# === Vite cache ===
+.vite/
+
+# === Env files ===
+.env
+.env.*.local
+
+# === Editor configs ===
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# === Optional (for macOS users) ===
+.AppleDouble
+.LSOverride
+
+# === Optional system files ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Optional if you generate coverage reports ===
+coverage/
