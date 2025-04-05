@@ -1,12 +1,7 @@
-
+import { AppRouter } from "./router/index";
 
 const App = () => {
-  return (
-    <div>
-      EduStream frontend
-    </div>
-  )
-}
+  return <AppRouter />;
+};
 
-export default App
-
+export default App;
